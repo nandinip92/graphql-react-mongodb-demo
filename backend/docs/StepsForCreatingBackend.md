@@ -28,9 +28,11 @@ npm init -y
 Next, install necessary dependencies
 
 ```script
-npm install express graphql graphql-tools @apollo/server mongodb mongoose body-parser cors
+npm install express@4.18.2 graphql graphql-tools apollo-server-express mongodb mongoose
+```
 
-npm install express graphql graphql-tools @apollo/server mongodb mongoose body-parser cors
+```script
+npm install express graphql graphql-tools @apollo/server@4.5.0 mongodb mongoose body-parser cors
 
 ```
 
@@ -51,10 +53,11 @@ npm install express graphql graphql-tools @apollo/server mongodb mongoose body-p
 - Utility library to help build and manipulate GraphQL schemas.
 - Makes it easier to merge schemas, define resolvers, and use schema stitching.
 
-`@apollo/server`
+`apollo-server-express`
 
-- The core Apollo Server package (Apollo Server 4).
-- Handles GraphQL queries and mutations, and executes your schema + resolvers.
+- Allows you to integrate Apollo Server with Express.
+
+- Apollo Server handles GraphQL requests, while Express handles routing and middleware.
 
 `mongodb`
 
@@ -70,16 +73,6 @@ npm install express graphql graphql-tools @apollo/server mongodb mongoose body-p
   - mongodb → raw driver, you control everything, less abstraction.
 
   - mongoose → middleman library that helps you work with MongoDB using JavaScript objects instead of raw commands. It adds schemas, validation, and models.
-
-`body-parser`
-
-- Middleware for Express that parses incoming request bodies.
-- Used here to parse JSON requests before Apollo Server processes them.
-
-`cors`
-
-- Middleware to enable Cross-Origin Resource Sharing.
-- Allows your frontend app (running on a different port, like React on http://localhost:3000) to make requests to your backend (http://localhost:4000).
 
 ### Step- 4 Connecting to MongoDB
 
