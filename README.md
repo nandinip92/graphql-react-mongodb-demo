@@ -1,5 +1,7 @@
 # graphql-react-mongodb-demo
 
+This application just takes in username and age and prints the list. This is a demo project to learn how GraphQL, MongoDB and React come together in an application.
+
 ## How to run Application
 
 Run the following commands inside `backend` folder:
@@ -26,7 +28,6 @@ npm install
 
 Then start the application using the following
 
-
 ```bash
 npm start
 ```
@@ -34,7 +35,6 @@ npm start
 **_NOTE:_**
 
 Make sure you run you backend before tsrting the front end.
-
 
 ---
 
