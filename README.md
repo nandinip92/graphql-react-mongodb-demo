@@ -24,7 +24,8 @@ cd graphql-users-frontend
 npm install
 ```
 
-Then start the app;lication using the following
+Then start the application using the following
+
 
 ```bash
 npm start
@@ -33,6 +34,15 @@ npm start
 **_NOTE:_**
 
 Make sure you run you backend before tsrting the front end.
+
+
+---
+
+After running the application frontend looks like the following
+
+![localhoseImage](./graphql-users-frontend/docs/browserImage.png)
+
+---
 
 ## Backend
 
