@@ -17,12 +17,16 @@ npm start
 
 Make sure you run you backend before tsrting the front end.
 
-**👉 To run the backend use the following commands or checkout [`BACKEND-README.md`](/backend/BACKEND-README.md)**
+**👉 Checkout [`BACKEND-README.md`](/backend/BACKEND-README.md)**
 
 Run the following commands inside `backend` folder:
 
 ```bash
 docker-compose up
+```
+
+```bash
+npm install
 node server.js
 ```
 
