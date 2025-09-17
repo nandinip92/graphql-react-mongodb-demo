@@ -25,7 +25,6 @@ Run the following commands inside `backend` folder:
 docker-compose up
 node server.js
 ```
----
 
 # Steps used to create React Frontend
 
@@ -133,7 +132,6 @@ graphql-users-frontend/
 ├── package.json
 └── README.md
 ```
-
 
 **Resource Links**
 
