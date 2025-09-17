@@ -1,8 +1,19 @@
-# Backend
+# How to run Backend
 
-For steps I used to create backend [`docs` Folder](/backend/docs/)
+Following are the commands for running the graphql backend.
 
+```bash
+docker-compose up
+node server.js
+```
 
+---
+
+# Steps used to Backend
+
+For steps I used to create backend checkout [StepsForCreatingBackend.md](./docs/StepsForCreatingBackend.md)
+
+# Folder Structure
 
 ```sql
 project-root/
@@ -14,7 +25,7 @@ project-root/
 │   │
 │   ├── models/               # MongoDB models (Mongoose)
 │   │   └── user.model.js           # Example: User schema/model
-│   │   
+│   │
 │   │
 │   ├── graphql/
 │   │   ├── schema.js         # GraphQL type definitions (typeDefs)
