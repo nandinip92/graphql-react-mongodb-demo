@@ -30,6 +30,10 @@ npm install
 node server.js
 ```
 
+After running the application. It looks like the following:
+
+![localhoseImage](./graphql-users-frontend/docs/browserImage.png)
+
 # Steps used to create React Frontend
 
 ## 1️⃣ Create a New React App
